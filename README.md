@@ -12,4 +12,4 @@
 > cd api-short-url
 > npm start
 ```
-Server run on https://localhost:3000
+Server run on http://localhost:3000
