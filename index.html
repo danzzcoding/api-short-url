@@ -10,12 +10,18 @@
 <body>
 	<div>
 		<div>
-		<form action="/api/shorturl">
+		<form action="/api/shorturl/tinyuwithalias">
 		<span>Convert your link to short</span>
-		<br><br>
+		<br><br>Tinyu with alias
 		<input type="url" name="url" placeholder="Enter URL" required><br><br>
 		<input type="name" name="alias" placeholder="Enter Alias Name" required><br>
 		<br>
+			<button>Confirm</button>
+			</form>
+		<div>
+		<form action="/api/shorturl/tinyunotwithalias">
+		<br>Tinyu not with alias
+		<input type="url" name="url" placeholder="Enter URL" required><br><br>
 			<button>Confirm</button>
 			</form>
 			<br>
