@@ -12,17 +12,19 @@
 		<div>
 		<form action="/api/shorturl">
 		<span>Convert your link to short</span>
-		<br>
-		<input type="url" name="url" placeholder="Enter URL" required>
+		<br><br>
+		<input type="url" name="url" placeholder="Enter URL" required><br><br>
+		<input type="name" name="alias" placeholder="Enter Alias Name" required><br>
 		<br>
 			<button>Confirm</button>
 			</form>
+			<br>
 			<small>Created by: </small><a href="https://danzzcodingweb.vercel.app">Danzz Coding</a><small>. All rights reserved.</small>
 		</div>
 	</div>
 </body>
 <style>
-	body {
+body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -37,7 +39,7 @@ input {
   border: none;
   height: 30px;
   width: 395px;
-  border-radius: 12px;
+  border-radius: 13px;
   font-size: 13px;
   font-weight: 400;
   color: #333;
