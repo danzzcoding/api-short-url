@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7400ED;
+  color: white;
+  overflow: hidden;
+}
+input {
+  position: relative;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 395px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+}
+button {
+	position: relative;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 90px;
+	background-color: blue;
+	color: white;
+	font-size: 13px;
+	color: white;
+	border: none;
+	border-radius: 12px;
+}
+span {
+	font-size: 23px;
+}
+a {
+	color: #00B9FF;
+}

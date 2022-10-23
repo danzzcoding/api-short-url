@@ -1,0 +1,26 @@
+{
+  "name": "short-url-api",
+  "version": "1.0.0",
+  "description": "short url api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Danzz Coding",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.5",
+    "node-fetch": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "engines": { 
+    "node": "16.x" 
+  }
+}
