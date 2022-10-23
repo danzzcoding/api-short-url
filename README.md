@@ -1,4 +1,5 @@
 ## Examples
+<img src="screenshot.jpg">
 <a href="https://api-short-url.danzzcoding.repl.co/">api-short-url.danzzcoding.repl.co/</a>
 
 ## Instalasi
